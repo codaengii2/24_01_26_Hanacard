@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>하나카드</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/pc.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- header -->
+      <header>
+        <div class="container">
+          <div class="top_header flex">
+            <ul class="catalog flex">
+              <li><a href="index.html">개인</a></li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OCH30000000N.web?_frame=no&schID=ccd&mID=OCH30000000C"
+                  >기업</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OMH30000000N.web?_frame=no&schID=mcd&mID=OMH30000000C"
+                  >가맹점</a
+                >
+              </li>
+            </ul>
+            <ul class="side_menu flex">
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+                  >로그인</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPM00000001D.web?schID=pcd&mID=OPM00000001D&"
+                  >회원가입</a
+                >
+              </li>
+              <li><a href="#">투자정보</a></li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OKP00050000N.web?schID=kcd&mID=OKP00050000N&"
+                  >상품공시실</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OSA51000000D.web?schID=scd&mID=OSA51000000D&"
+                  >금융소비자보호</a
+                >
+              </li>
+              <li><a href="https://eng.hanacard.co.kr/">English</a></li>
+            </ul>
+          </div>
+          <div class="menu_header flex">
+            <div class="logo">
+              <a href="#"><img src="img/logo.png" alt="하나카드로고" /></a>
+            </div>
+            <ul class="menu_wrap flex">
+              <li><a href="#">마이</a></li>
+              <li><a href="#">혜택</a></li>
+              <li><a href="#">카드안내/신청</a></li>
+              <li><a href="#">금융</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+            <div class="search flex">
+              <img src="img/search.png" alt="검색버튼" />
+              <img src="img/ham.png" alt="햄메뉴버튼" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- section_1 -->
+      <section class="sec_1">
+        <div class="container flex">
+          <div class="main swiper mainSwiper">
+            <ul class="main_img_wrap flex swiper-wrapper">
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=6583&bansrc=HomeMain&ban_nm=Top_rounge&"
+                >
+                  <img src="img/main01.jpg" alt="트로블로그" />
+                  <h3>해외여행하면?<br />트로블로그!</h3>
+                  <p>18개 통화,<br />해외이용 수수료 무료</p>
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7000"
+                >
+                  <img src="img/main02.jpg" alt="편의점" />
+                  <h3>다이소에서도<br />이런 혜택이!</h3>
+                  <p>최대 1천 <br />하나머니 적립</p>
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7594"
+                >
+                  <img src="img/main03.jpg" alt="미국떠나자간판" />
+                  <h3>미국으로<br />떠나자!</h3>
+                  <p>미국가고 최대 15만머니<br />하나머니 받고!</p>
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7586&bansrc=HomeMain&ban_nm=Top_month&"
+                >
+                  <img src="img/main04.jpg" alt="선물상자" />
+                  <h3>드디어 돌아온<br />블프엔?</h3>
+                  <p>하나카드와 해외직구<br />블.살.라!</p>
+                </a>
+              </li>
+            </ul>
+            <div class="swiper-pagination" id="page"></div>
+          </div>
+          <div class="login_wrap">
+            <div class="login_box">
+              <input type="radio" name="login" id="pay_app" />
+              <input type="radio" name="login" id="easy" />
+              <input type="radio" name="login" id="id" />
+              <input type="radio" name="login" id="all" checked />
+              <div class="login_label_wrap flex">
+                <label for="pay_app" id="pay_label">하나Pay 앱</label>
+                <label for="easy" id="easy_label">간편인증</label>
+                <label for="id" id="id_label">아이디</label>
+                <label for="all" id="all_label">공동인증서</label>
+              </div>
+              <div class="pay_app_con login_con">
+                <img src="img/hanapay.jpg" alt="하나페이" />
+                <p>안전하고 간편하게 로그인하세요.</p>
+                <div class="login_btn">인증하기</div>
+              </div>
+              <form class="easy_con login_con">
+                <div class="easy_box_wrap">
+                  <div class="easy_box toss">
+                    <img src="img/toss.png" alt="toss" />
+                    <p>토스</p>
+                  </div>
+                  <div class="easy_box naver">
+                    <img src="img/naver.png" alt="naver" />
+                    <p>네이버</p>
+                  </div>
+                </div>
+
+                <input type="tel" placeholder="휴대폰번호 숫자만 입력" />
+                <p>제3자 정보제공에 동의하시겠습니까?<span>약관보기</span></p>
+
+                <div class="login_btn">동의 후 인증하기</div>
+              </form>
+              <div class="id_con login_con">
+                <input type="text" placeholder="아이디 입력" />
+                <input type="password" placeholder="비밀번호 입력" />
+                <div class="login_btn">로그인</div>
+              </div>
+              <div class="all_con login_con">
+                <img src="img/all_img.png" alt="" />
+                <p>공동인증서로 로그인해주세요.</p>
+                <div class="login_btn">로그인</div>
+              </div>
+            </div>
+            <ul class="menu_box flex">
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+                >
+                  <div class="menu_img_box">
+                    <img src="img/bill.png" alt="명세서" />
+                  </div>
+
+                  <h5>명세서</h5>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+                >
+                  <div class="menu_img_box">
+                    <img src="img/list.png" alt="이용내역" />
+                  </div>
+                  <h5>이용내역</h5>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPY05050000M.web?schID=pcd&mID=OPY05050000M&"
+                >
+                  <div class="menu_img_box">
+                    <img src="img/coin.png" alt="즉시결제" />
+                  </div>
+
+                  <h5>즉시결제</h5>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+                >
+                  <div class="menu_img_box">
+                    <img src="img/coinup.png" alt="한도신청" />
+                  </div>
+
+                  <h5>한도신청</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- section_2 -->
+      <section class="sec_2">
+        <div class="container">
+          <div class="card_wrap">
+            <input type="radio" name="card" id="recommend" checked />
+            <input type="radio" name="card" id="connect" />
+            <input type="radio" name="card" id="special" />
+            <div class="card_label_wrap flex">
+              <label for="recommend" id="recommend_label">추천카드</label>
+              <label for="connect" id="connect_label">제휴카드</label>
+              <label for="special" id="special_label">특별혜택카드</label>
+            </div>
+            <ul class="card_con recommend_con flex">
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015249P&CD_PD_SEQ=15249&"
+                >
+                  <img src="img/any.gif" alt="" />
+                  <h5>#any 하나</h5>
+                  <p>
+                    페이결제 조건없이 최대 1%청구할인, 구독서비스 50%청구할인
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015444P&CD_PD_SEQ=15444&"
+                >
+                  <img src="img/myway.gif" alt="" />
+                  <h5>#My Way(샵 마이웨이)</h5>
+                  <p>
+                    출근에서 퇴근까지<br />
+                    나의 하루를 함께하는 카드
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016787P&CD_PD_SEQ=16787&"
+                >
+                  <img src="img/trabel.gif" alt="" />
+                  <h5>트래블로그</h5>
+                  <p>신용카드와 외화 하나머니의 만남</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41001544P&CD_PD_SEQ=1544&"
+                >
+                  <img src="img/recommend (1).png" alt="" />
+                  <h5>CLUB SK(클럽 SK)</h5>
+                  <p>100만 고객이 선택한 SK의 모든 혜택</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="card_con connect_con flex">
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41013836P&CD_PD_SEQ=13836&"
+                >
+                  <img src="img/connect01.png" alt="모두의 신세계 하나카드" />
+                  <h5>모두의 신세계 하나카드</h5>
+                  <p>신세계 백화점 5% 할인</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41014177P&CD_PD_SEQ=14177&"
+                >
+                  <img src="img/connect02.png" alt="원스토어 1 하나카드" />
+                  <h5>원스토어 1 하나카드</h5>
+                  <p>원스토어 2% 무제한 할인</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012929P&CD_PD_SEQ=12929&"
+                >
+                  <img src="img/connect03.png" alt="" />
+                  <h5>언택트 L 하나카드</h5>
+                  <p>언택트 시대에 필요한 맞춤형 카드!</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41015686P&CD_PD_SEQ=15686&"
+                >
+                  <img src="img/connect04.png" alt="" />
+                  <h5>이디야 하나카드</h5>
+                  <p>실적에서 자유롭고, 혜택을 덤으로 주는 내 지갑 속 카페</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="card_con special_con flex">
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41016772P&CD_PD_SEQ=16772&"
+                >
+                  <img src="img/pre04.png" alt="" />
+                  <h5>에너지 더블 카드</h5>
+                  <p>에너지 공과금 할인 카드</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012958P&CD_PD_SEQ=12958&"
+                >
+                  <img src="img/pre.png" alt="" />
+                  <h5>MULTI Any 모바일카드</h5>
+                  <p>전월 실적없이 어디서나 하나머니 적립</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41012934P&CD_PD_SEQ=12934&"
+                >
+                  <img src="img/pre02.png" alt="" />
+                  <h5>MULTI On 모바일카드</h5>
+                  <p>
+                    실적 조건, 적립한도 없이<br />
+                    최대 1.0% 하나머니 적립
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPI41000000D.web?schID=pcd&mID=PI41014502P&CD_PD_SEQ=14502&"
+                >
+                  <img src="img/pre03.png" alt="" />
+                  <h5>내맘대로 쁨 카드</h5>
+                  <p>예쁨, 미쁨, 기쁨... 내가 원하는 모든 쁨을 위해!</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="card_menu flex">
+            <a
+              href="https://www.hanacard.co.kr/OPI23000000D.web?schID=pcd&mID=OPI23000000P&"
+              ><p>내게 맞는 카드 찾기</p></a
+            >
+            <a
+              href="https://www.hanacard.co.kr/OPI20200000M.web?schID=pcd&mID=OPI20200000M&"
+              ><p>모바일 카드 신청</p></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- section_3 -->
+      <section class="sec_3">
+        <a
+          href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7578&bansrc=HomeMain&ban_nm=Top_month&"
+        >
+          <div class="container">
+            <h1>11월, 월간혜택 OPEN <span>노벰버 혜택 리멤버</span></h1>
+          </div>
+        </a>
+      </section>
+      <!-- section_4 -->
+      <section class="sec_4">
+        <div class="container">
+          <div class="event_slide_wrap swiper eventSwiper">
+            <ul class="event_slide_box flex swiper-wrapper">
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7177&"
+                >
+                  <h5>인천공항이동 <br />최대 25% 할인</h5>
+                  <img src="img/event01.png" alt="" />
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7545&"
+                >
+                  <h5>연말엔<br />해외여행<br />할인 받고 나도 간다!</h5>
+                  <img src="img/event02.png" alt="" />
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=7000&"
+                >
+                  <h5>
+                    5천원 이상 <br />QR결제 시 <br />
+                    최대 1천 하나머니
+                  </h5>
+                  <img src="img/event03.png" alt="" />
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35000001D.web?schID=ncd&mID=OPP35000001D&EVN_SEQ=6989&"
+                >
+                  <h5>
+                    여행갈 때 <br />꼭 챙기는 <br />
+                    공항서비스
+                  </h5>
+                  <img src="img/event04.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="event_slide_btn flex">
+            <div class="left_slide">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right_slide">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section_5 -->
+      <section class="sec_5">
+        <div class="container flex">
+          <div class="left_con">
+            <div class="sticky_wrap">
+              <ul class="sticky_menu flex">
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OPP20000000N.web?schID=pcd&mID=OPP20000000N&bansrc=HomeMain&ban_nm=LeftBtm_VIPSystem&"
+                  >
+                    <div class="sticky_img_box">
+                      <img src="img/stick01.jpg" alt="" />
+                    </div>
+                    <h4>VIP Service</h4>
+                    <p>프리미엄 회원제도로<br />특별한 혜택을 누리세요</p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+                  >
+                    <div class="sticky_img_box">
+                      <img src="img/stick02.jpg" alt="" />
+                    </div>
+                    <h4>디지털명세서</h4>
+                    <p>
+                      이용편리하고 정보유출 걱정없게<br />모바일로 받아보세요
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA10150010N.web?schID=pcd&mID=OSA10150010N&bansrc=HomeMain&ban_nm=LeftMiddle_OverseaGuide&"
+                  >
+                    <div class="sticky_img_box">
+                      <img src="img/stick03.jpg" alt="" />
+                    </div>
+                    <h4>글로벌서비스 연구소(G.Lab)</h4>
+                    <p>하나카드만의 특별한<br />해외 전용 모바일 플랫폼</p>
+                  </a>
+                </li>
+              </ul>
+              <div class="plus"><p>진행중 이벤트 더보기</p></div>
+            </div>
+            <div class="center_wrap flex">
+              <div class="info_box center_con">
+                <a
+                  href="https://www.hanacard.co.kr/OPP35150000D.web?schID=ncd&mID=OPP35150000D&"
+                >
+                  <div class="center_title flex">
+                    <h5>공지사항</h5>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  <h3>채권 양도에 따른 개인[신용]정보 제공사실 안내</h3>
+                  <p>2023.10.30</p>
+                </a>
+              </div>
+              <div class="customer_box center_con">
+                <div class="center_title flex">
+                  <h5>고객센터</h5>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <ul class="customer_menu flex">
+                  <li>
+                    <a
+                      href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+                    >
+                      <img src="img/customer01.png" alt="" />
+                      <p>이메일 상담</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.hanacard.co.kr/OSA10200000N.web?schID=scd&mID=OSA10200000N&"
+                    >
+                      <img src="img/customer02.png" alt="" />
+                      <p>ARS 상담</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.hanacard.co.kr/OSA60000000D.web?schID=scd&mID=OSA60000000D#"
+                    >
+                      <img src="img/customer03.png" alt="" />
+                      <p>자주하는 질문</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="right_con">
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPF05000000M.web?schID=pcd&mID=OPF05000000M&"
+              >
+                <div class="right_text">
+                  <div class="round">금융서비스</div>
+                  <h5>단기 카드 대출<br />(현금 서비스)</h5>
+                  <p>365일 24시간 이용가능</p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right01.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPF10000000M.web?schID=pcd&mID=OPF10000000M&"
+              >
+                <div class="right_text">
+                  <div class="round">금융서비스</div>
+                  <h5>장기 카드 대출<br />(카드론)</h5>
+                  <p>자유로운 결제비율 조정</p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right02.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPF10000000M.web?schID=pcd&mID=OPF10000000M&"
+              >
+                <div class="right_text">
+                  <div class="round">금융서비스</div>
+                  <h5>일부결제금액이월약정<br />(리볼빙)</h5>
+                  <p>원하는 만큼 결제하는 현명한 방법!</p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right07.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPFA1000300M.web?schID=pcd&mID=OPFA1000300M&"
+              >
+                <div class="right_text">
+                  <div class="round">자동차 금융</div>
+                  <h5>오토카드할부</h5>
+                  <p>최대 60개월 할부로 신차 구매하세요</p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right03.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPFA1000000M.web?schID=pcd&mID=OPFA1000000M&"
+              >
+                <div class="right_text">
+                  <div class="round">자동차 금융</div>
+                  <h5>오토할부</h5>
+                  <p>하나카드로 빠르고 간편한<br />신차 구입방법!</p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right04.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPFA1000200M.web?schID=pcd&mID=OPFA1000200M&"
+              >
+                <div class="right_text">
+                  <div class="round">자동차 금융</div>
+                  <h5>오토 캐시백</h5>
+                  <p>
+                    하나카드로 자동차 일시불 결제 시<br />받을 수 있는 캐시백
+                    혜택
+                  </p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right05.png" alt="" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OSA51000000D.web?schID=scd&mID=OSA51000000D&"
+              >
+                <div class="right_text">
+                  <div class="round">안전 서비스</div>
+                  <h5>금융 소비자 보호</h5>
+                  <p>소비자보호 정보를 한눈에<br />금융소비자 보호포털</p>
+                </div>
+                <div class="right_img">
+                  <img src="img/right06.jpg" alt="" />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <div class="f_top_wrap">
+            <div class="f_top flex">
+              <div class="ars_wrap flex">
+                <div class="ars_img_wrap flex">
+                  <div class="represent">
+                    <img src="img/represent.png" alt="" />
+                    <h3>대표 ARS</h3>
+                  </div>
+                  <div class="represent_tel">
+                    <p>1800-1111</p>
+                    <p>82-1800-1111</p>
+                  </div>
+                </div>
+                <ul class="ars_tel_wrap">
+                  <li>
+                    <p>금융ARS</p>
+                    <p>1800-1000</p>
+                  </li>
+                  <li>
+                    <p>승인ARS</p>
+                    <p>1800-2000</p>
+                  </li>
+                  <li>
+                    <p>카드신청</p>
+                    <p>1800-3000</p>
+                  </li>
+                </ul>
+              </div>
+              <ul class="sns_wrap flex">
+                <li>
+                  <a href="https://www.facebook.com/hanacard">
+                    <img src="img/sns01.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCsnlgvmpylLeDhxPQvUcMCA"
+                    ><img src="img/sns02.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hanacard.official/"
+                    ><img src="img/sns03.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCsnlgvmpylLeDhxPQvUcMCA"
+                    ><img src="img/sns04.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <ul class="f_top_app flex">
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPY15800000N.web?schID=pcd&mID=OPY15800000N&"
+                >
+                  <img src="img/hanapayapp.png" alt="" />
+                  <p>하나페이</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OPL35050000N.web?schID=pcd&mID=OPL35050000N&"
+                >
+                  <img src="img/hanamoney.png" alt="" />
+                  <p>하나머니</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.hanacard.co.kr/OSA10150010N.web?schID=scd&mID=OSA10150010N&"
+                >
+                  <img src="img/glabapp.png" alt="" />
+                  <p>G.Lab</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="f_bottom">
+            <div class="f_menu_wrap flex">
+              <div class="f_logo">
+                <a href="#"><img src="img/f_logo.png" alt="" /></a>
+              </div>
+              <ul class="f_menu flex">
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OGA00000000N.web?gchID=kcd&mID=OGA00000000N"
+                    >회사소개</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OGA30000010D.web?schID=gcd&mID=OGA30000010D"
+                    >경영공시</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA75000000N.web?schID=scd&mID=OSA75000000N&"
+                    >웹이용약관</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA70000000N.web?schID=scd&mID=OSA70000000N&"
+                    >보안프로그램장애해결</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA75350000N.web?schID=scd&mID=OSA75350000N&"
+                    ><span>개인정보처리방침</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA90000001N.web?schID=scd&mID=OSA90000001N&"
+                    ><span>위치기반서비스이용약관</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA50000000N.web?schID=scd&mID=OSA50000000N&"
+                    ><span>전자민원접수</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.hanacard.co.kr/OSA75650000M.web?schID=scd&mID=OSA75650000M&"
+                    ><span>그룹시간 고객정보제공내역</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="f_copy">
+              <p>서울특별시 중구 을지로 66 대표이사 이호성</p>
+              <p>COPYRIGHTⓒ 2023 Hana Card. All RIGHTS RESERVED</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="chat_bot">
+        <div class="not_hover">
+          <div class="chat_img">
+            <p>챗봇</p>
+            <img src="img/chat_bot.png" alt="" />
+          </div>
+        </div>
+        <div class="close_btn"><i class="fa-solid fa-xmark"></i></div>
+        <!-- hover event -->
+        <div class="chat_hover">
+          <ul class="quick_menu flex">
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPIB5000000M.web?schID=pcd&mID=OPIB5000000M&"
+              >
+                <img src="img/chat (2).png" alt="" />
+                <p>카드등록</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPY35350000N.web?schID=spd&mID=OPY35350000N&"
+              >
+                <img src="img/chat (3).png" alt="" />
+                <p>분실신고</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.hanacard.co.kr/OPM05000000C.web?schID=pcd&mID=OPM05000000C"
+              >
+                <img src="img/chat (1).png" alt="" />
+                <p>하나머니</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/event.js"></script>
+    <script src="js/close_btn.js"></script>
+  </body>
+</html>
